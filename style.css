@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+
+video {
+  position: absolute;
+  width: 100%;
+}
+
+.banner {
+  margin: 0 auto;
+  position: relative;
+  padding-top: 80px;
+  width: 500px;
+}
+
+.logo img {
+  position: relative;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+}
+
+.logo::before {
+  content: "";
+  background: linear-gradient(90deg,#ffdf00, #009c3b);
+  border-radius: 50%;
+  height: 245px;
+  width: 245px;
+  position: absolute;
+}
+
+.logo {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin-top: 35px;
+  position: relative;
+  font-size: 55px;
+  text-align: center;
+  color: #000;
+}
+h1::before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  width: 70px;
+  height: 5px;
+  background: linear-gradient(90deg,#ffdf00, #009c3b);
+  border-radius: 5px;
+}
+h1::after{
+  content: "";
+  top: 35px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-image: url(./assets/verificado.png);
+  background-size: cover;
+}
+.links {
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.links a {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-top: 10px;
+  text-align: center;
+  width: 18em;
+  padding: 15px 25px;
+  text-decoration: none;
+  background-color: #000000a8;
+  color: #fff;
+}
+.youtube::before{
+  content: "";
+  left: 10px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-image: url(./assets/youtube.png);
+  background-size: cover;
+}
+.instagram::before{
+  content: "";
+  left: 10px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-image: url(./assets/instagram.png);
+  background-size: cover;
+}
+.twitter::before{
+  content: "";
+  left: 10px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-image: url(./assets/twitter.png);
+  background-size: cover;
+}
+.facebook::before{
+  content: "";
+  left: 10px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-image: url(./assets/facebook.png);
+  background-size: cover;
+}
+.twitch::before{
+  content: "";
+  left: 10px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-image: url(./assets/twitch.png);
+  background-size: cover;
+}
+.youtube::before{
+  content: "";
+  left: 10px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-image: url(./assets/youtube.png);
+  background-size: cover;
+}
+.estatistica {
+  margin-top: 100px;
+  position: relative;
+  background-image: url(./assets/imagem-de-fundo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
